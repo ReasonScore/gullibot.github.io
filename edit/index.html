@@ -13,15 +13,15 @@
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
     <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
     <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
-    <title>Reason Score</title>
-    <link rel="canonical" href="/">
+    <title>Reason Score Editor</title>
+    <link rel="canonical" href="/edit/">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "NewsArticle",
-        "headline": "Reason Score",
-        "datePublished": "2018-6-10",
+        "headline": "Reason Score Editor",
+        "datePublished": "",
         "image": ["/img/logo.png"]
       }
     </script>
@@ -214,34 +214,25 @@
         <li><a href="/about">About</a></li>
       </ul>
     </amp-sidebar> -->
-      <div>
-    <div style="
-        background: url(/img/coming_soon_egg.png);
-        text-align: center;
-        vertical-align: middle;
-        min-height: 70vh;
-        background-size: cover;
-        background-position: center center;
-        color: white;
-        position: relative;
-        margin-bottom: 20px;
-        text-shadow: black 0 0 10px; font-size: larger;
-        background-color: black;">
-        <div style="
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-shadow: black 0 0 10px;
-            font-size: larger;
-            width: 100%;
-            padding: 15px;
-            box-sizing: border-box;">
-        </div>
-    </div>
-    <div class="content">
-    </div>
+      <div class="content">
+  <rs-score score-tree-id="ScoreTree"></rs-score>
 </div>
+<script> //Settings for this page
+  window.RsSettings = {
+    disableExternalDb: false,
+    numbers: true,
+    largeNumbers: true,
+    lines: false,
+    editable: true,
+    startClosed: false,
+    portData: true,
+    scoreDescription: false,
+    saveToCloud: false,
+    moreInfo: true,
+    dbCollection: "f-" + new URL(window.location.href).searchParams.get("i"),
+  }
+</script>
+<script src="/static/js/ReasonScoreFull.js"></script>
     <br>
     <br>
   </body>

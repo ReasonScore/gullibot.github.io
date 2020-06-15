@@ -13,15 +13,15 @@
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
     <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
     <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
-    <title>Reason Score</title>
-    <link rel="canonical" href="/">
+    <title>Should Denver replace their pit bull ban with a breed license</title>
+    <link rel="canonical" href="/denver-pit-bull-ban/">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "NewsArticle",
-        "headline": "Reason Score",
-        "datePublished": "2018-6-10",
+        "headline": "Should Denver replace their pit bull ban with a breed license",
+        "datePublished": "",
         "image": ["/img/logo.png"]
       }
     </script>
@@ -214,34 +214,44 @@
         <li><a href="/about">About</a></li>
       </ul>
     </amp-sidebar> -->
-      <div>
-    <div style="
-        background: url(/img/coming_soon_egg.png);
-        text-align: center;
-        vertical-align: middle;
-        min-height: 70vh;
-        background-size: cover;
-        background-position: center center;
-        color: white;
-        position: relative;
-        margin-bottom: 20px;
-        text-shadow: black 0 0 10px; font-size: larger;
-        background-color: black;">
-        <div style="
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-shadow: black 0 0 10px;
-            font-size: larger;
-            width: 100%;
-            padding: 15px;
-            box-sizing: border-box;">
-        </div>
-    </div>
-    <div class="content">
-    </div>
+      <div class="content">
+  <h2>Help Us Improve This Reason Score</h2>
+<p>
+    This reason score has not been researched in depth and the public review has not been
+    completed. Please send suggestions by 
+    <a id="feedback1" target="_blank"
+        href="https://twitter.com/intent/tweet?text=https%3A%2F%2FReasonScore.com%2Fdenver-pit-bull-ban%2F%20%40Reason_Score">
+        Tweet
+    </a>.
+    This will keep the feedback public and transparent. We will update this discussion and reply back on twitter. You
+    can see the
+    <a id="feedback2" href="https://twitter.com/search?q=https%3A%2F%2FReasonScore.com%2Fdenver-pit-bull-ban%2F"
+        target="_blank">
+        public feedback on Twitter
+    </a>.
+    You can also contact us on
+    <a href="https://www.facebook.com/ReasonScore/">Facebook</a>
+    or by email to info at this domain.
+</p>
+<script>
+    // Add in query parameters
+    document.querySelector("#feedback1").setAttribute('href', `https://twitter.com/intent/tweet?text=${encodeURIComponent(document.location + ` @Reason_Score`)}`);
+    document.querySelector("#feedback2").setAttribute('href', `https://twitter.com/search?q=${encodeURIComponent(document.location)}`);
+</script>
+  <rs-score score-tree-id="ScoreTree"></rs-score>
 </div>
+<script> //Settings for this page
+  window.RsSettings = {
+    disableExternalDb: false,
+    numbers: true,
+    largeNumbers: true,
+    lines: false,
+    startClosed: false,
+    moreInfo: true,
+    dbCollection: "f-denverpbb",
+  }
+</script>
+<script src="/static/js/ReasonScoreFull.js"></script>
     <br>
     <br>
   </body>
