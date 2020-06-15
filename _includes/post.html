@@ -1,0 +1,21 @@
+---
+layout: page.html
+tags: post
+---
+<div class="content">
+<div class="fixed-height-container">
+    <amp-img
+        class="contain"
+        layout="responsive"
+        src="{{ img }}"
+        alt="{{ title }}"
+        width="{{ img-width }}"
+        height="{{ img-height }}"
+    ></amp-img>
+</div>
+    <span style="font-size: x-small;">
+        {% formatDate page.date %}
+    </span>
+    <h1>{{ title }}</h1>
+    {{ content | safe }}
+</div>

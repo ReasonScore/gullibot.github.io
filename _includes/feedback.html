@@ -1,0 +1,23 @@
+<h2>Help Me Improve This Reason Score</h2>
+<p>
+    I have not reseached this in depth and the public review has not been
+    completed. Please send suggestions by 
+    <a id="feedback1" target="_blank"
+        href="https://twitter.com/intent/tweet?text=https%3A%2F%2FReasonScore.com{{ page.url | url_encode}}%20%40Reason_Score">
+        Tweet
+    </a>.
+    This will keep the feedback public and transparent. We will update this discussion and reply back on twitter. You
+    can see the
+    <a id="feedback2" href="https://twitter.com/search?q=https%3A%2F%2FReasonScore.com{{ page.url | url_encode}}"
+        target="_blank">
+        public feedback on Twitter
+    </a>.
+    You can also contact us on
+    <a href="https://www.facebook.com/ReasonScore/">Facebook</a>
+    or by email to info at this domain.
+</p>
+<script>
+    // Add in query parameters
+    document.querySelector("#feedback1").setAttribute('href', `https://twitter.com/intent/tweet?text=${encodeURIComponent(document.location + ` @Reason_Score`)}`);
+    document.querySelector("#feedback2").setAttribute('href', `https://twitter.com/search?q=${encodeURIComponent(document.location)}`);
+</script>
