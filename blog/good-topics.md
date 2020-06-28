@@ -8,5 +8,5 @@ img: "/img/blog/topics.png"
 img-width: 600
 img-height: 600
 permalink: "good-topics/index.html"
-tags: post
+tags: posts
 ---

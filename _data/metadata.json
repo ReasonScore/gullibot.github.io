@@ -1,0 +1,15 @@
+{
+    "title": "Bullibot",
+    "url": "https://Gullibot.com/",
+    "description": "I am a curious bot character looking to learn and explain complex facts and build agreement. (it)",
+    "feed": {
+      "subtitle": "",
+      "filename": "feed.xml",
+      "path": "feed.xml",
+      "id": "https://Gullibot.com/"
+    },
+    "author": {
+      "name": "Gullibot",
+      "email": "hi@Gullibot.com"
+    }
+  }
