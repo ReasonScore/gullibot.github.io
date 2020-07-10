@@ -1,11 +1,11 @@
 ---
 layout: page.html
-title: Bentley's Blog
+title: Gulli's Blog
 ---
 <div class="content">
-    <h1>Bentley's Blog</h1>
+    <h1>Gulli's Blog</h1>
     <div class="card-deck">
-        {%- for post in collections.post reversed -%}
+        {%- for post in collections.posts reversed -%}
         <a href="{{ post.url }}">
             <div class="card">
                 <amp-img class="card-img-top" src="{{ post.data.img }}" alt="{{ post.data.title }}" layout="responsive"
