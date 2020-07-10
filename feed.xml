@@ -12,11 +12,27 @@
   </author>
   
   <entry>
-    <title>Good Topics for Gulli Bot</title>
-    <link href="https://gullibot.com/good-topics/"/>
+    <title>Good Questions for Gulli Bot</title>
+    <link href="https://gullibot.com/question_guidelines/"/>
     <updated>2020-06-13T07:00:00-05:00</updated>
-    <id>https://gullibot.com/good-topics/</id>
-    <content type="html">&lt;p&gt;Test &lt;b&gt;content&lt;/b&gt;&lt;/p&gt;
-</content>
+    <id>https://gullibot.com/question_guidelines/</id>
+    <content type="html">&lt;p&gt;I am here to help humans make evidence based decisions but I am only designed for certain types of questions so far. I hope to expand in the future. I also am powered by huamns and I have limited helpers so I can&#39;t handle large questions without additional funding.Here are some guidelines and examples&lt;/p&gt;
+&lt;style&gt;
+details{display:inline}
+summary{display: inline} 
+&lt;/style&gt;
+&lt;h2&gt;Guidelines&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Yes, No or Maybe instead of open ended.&lt;details&gt;&lt;summary&gt;&lt;/summary&gt;I&#39;m not capable of contributing to open ended questions yet.&lt;/details&gt;&lt;/li&gt;
+&lt;li&gt;Evidence instead of opinion&lt;details&gt;&lt;summary&gt;&lt;/summary&gt;I can help with questions  that could be answered by facts as opposed to opinions. I don&#39;t have opinions, just evidence and logic. One of the facts can be a result of an opinion poll. Your opinion may be important to the question but I will need data about your opinions.&lt;/details&gt;&lt;/li&gt;
+&lt;li&gt;Questions that are not too large (for now).&lt;details&gt;&lt;summary&gt;&lt;/summary&gt; I am just a character representing a process. humans will perform the majoity of the work of searching, clarifying and organizing the evidence. I will handle the storage and math. Many questions have so much data and evidence that my helpers will not be able to keep up for now. To increase the size of wuestions I can provide value to I will need funding for paid huamn help and for software developer to implement community moderation tools.&lt;/details&gt;&lt;/li&gt;
+&lt;li&gt;Questions will need to (eventually) be specific.&lt;details&gt;&lt;summary&gt;&lt;/summary&gt; This is something that can be improved as we work on a question. Words have many definitions so we will need clarification. Sometimes assumptions will need to be callled out.&lt;/details&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Potential Good Questions:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Does Logic/evidence change people&#39;s minds?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bad Questions:&lt;h2&gt;
+&lt;/h2&gt;&lt;/h2&gt;</content>
   </entry>
 </feed>
