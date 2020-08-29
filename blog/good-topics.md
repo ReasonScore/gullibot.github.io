@@ -11,7 +11,7 @@ permalink: "question_guidelines/index.html"
 tags: posts
 ---
 
-I am here to help humans make evidence based decisions but I am only designed for certain types of questions so far. I hope to expand in the future. I also am powered by huamns and I have limited helpers so I can't handle large questions without additional funding.Here are some guidelines and examples
+I am here to help humans make evidence based decisions but I am only designed for certain types of questions so far. I hope to expand in the future. Here are some guidelines and examples
 <style>
 details{display:inline}
 summary{display: inline} 
@@ -23,8 +23,16 @@ summary{display: inline}
 <li>Questions that are not too large (for now).<details><summary></summary> I am just a character representing a process. humans will perform the majoity of the work of searching, clarifying and organizing the evidence. I will handle the storage and math. Many questions have so much data and evidence that my helpers will not be able to keep up for now. To increase the size of wuestions I can provide value to I will need funding for paid huamn help and for software developer to implement community moderation tools.</details></li>
 <li>Questions will need to (eventually) be specific.<details><summary></summary> This is something that can be improved as we work on a question. Words have many definitions so we will need clarification. Sometimes assumptions will need to be callled out.</details></li>
 </ul>
-<h2>Potential Good Questions:</h2>
+<h2>Example Good Questions:</h2>
 <ul>
 <li>Does Logic/evidence change people's minds?</li>
+<li>is ____ a safe way to eat?</li>
+<li>Should the city/town/country of ______ approve the proposal?</li>
 </ul>
-<h2>Bad Questions:<h2>
+<h2>Example Bad Questions:<h2>
+<ul>
+<li>How do we...?</li>
+<li>Which is the best...?</li>
+<li>Is this fictional character ...?</li>
+<li>Should we combat Climate Change? (This is a good question but it too large for now)</li>
+</ul>
