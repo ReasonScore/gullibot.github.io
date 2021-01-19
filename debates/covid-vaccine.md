@@ -1,7 +1,8 @@
 ---
 layout: page.html
-title: "Reason Score"
-permalink: covid/
+title: "Should you take the COVID-19 Vaccine - Analysis"
+description: "I am currently undecided if you should take the vaccine even if recommended by the CDC. Help me by providing more facts."
+permalink: covid-vaccine/
 ---
 <div class="content">
   {% include feedback.html %}
