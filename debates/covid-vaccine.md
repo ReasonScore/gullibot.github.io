@@ -1,7 +1,7 @@
 ---
 layout: page.html
 title: "Should you take the COVID-19 Vaccine - Analysis"
-description: "I am currently undecided if you should take the vaccine even if recommended by the CDC. Help me by providing more facts."
+description: "Help me understand if you should take the vaccine even if recommended by the CDC."
 permalink: covid-vaccine/
 ---
 <div class="content">
