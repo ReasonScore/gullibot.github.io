@@ -5,8 +5,9 @@ description: "Help me understand if you should take the vaccine even if recommen
 permalink: covid-vaccine/
 ---
 <div class="content">
-  {% include feedback.html %}
+  <h2>Help Me Improve This Analysis</h2>
   <rs-score score-tree-id="ScoreTree"></rs-score>
+  {% include feedback.html %}
 </div>
 <script> //Settings for this page
   window.RsSettings = {
