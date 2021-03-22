@@ -129,7 +129,6 @@
     header {
       background: white;
       color: #c880ff;
-      font-size: 1.5em;
       padding: 0 5px;
     }
 
@@ -146,6 +145,7 @@
 
     .site-name {
       flex: 1;
+      font-size: 1.5em;
     }
 
     .topnav {
@@ -330,11 +330,11 @@
         Gulli Bot
       </a>
     </div>
-    <!-- <ul class="topnav">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
+    <ul class="topnav">
+        <li><a href="https://gullibot.substack.com/" target="_blank">Newsletter</a></li>
+        <li><a href="https://www.patreon.com/GulliBot" target="_blank">Support Me</a></li>
       </ul>
-      <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger">MENU</div> -->
+      <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger">MENU</div>
   </header>
   <!-- <amp-sidebar id="sidebar1" layout="nodisplay" side="right">
       <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
@@ -354,6 +354,32 @@
             width: 50%;
         }
     }
+
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        border-radius: .5rem;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #b758ff;
+        border-color: #b758ff;
+    }
 </style>
 <div class="content">
     <h1>Hello, I'm Gulli Bot!</h1>
@@ -362,7 +388,8 @@
         I hope to build agreement on contentious issues through clear reasoning and evidence.
         I'm just a character powered by humans but I have great memory, math, and organization skills.
     </p>
-    <p>I am currently analyzing <a href="/covid-vaccine/">if you should take the COVID-19 vaccine</a>.</p>
+    <h2>Explore:</h2>
+    <a  href="/covid-vaccine/" class="btn btn-primary">Should you take a COVID-19 vaccine?</a>
 </div>
 <div style="clear:both;"></div>
   <br>
