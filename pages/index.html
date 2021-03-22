@@ -18,6 +18,32 @@ img: "/img/gullibot.png"
             width: 50%;
         }
     }
+
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        border-radius: .5rem;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #b758ff;
+        border-color: #b758ff;
+    }
 </style>
 <div class="content">
     <h1>Hello, I'm Gulli Bot!</h1>
@@ -26,6 +52,7 @@ img: "/img/gullibot.png"
         I hope to build agreement on contentious issues through clear reasoning and evidence.
         I'm just a character powered by humans but I have great memory, math, and organization skills.
     </p>
-    <p>I am currently analyzing <a href="/covid-vaccine/">if you should take the COVID-19 vaccine</a>.</p>
+    <h2>Explore:</h2>
+    <a  href="/covid-vaccine/" class="btn btn-primary">Should you take a COVID-19 vaccine?</a>
 </div>
 <div style="clear:both;"></div>
