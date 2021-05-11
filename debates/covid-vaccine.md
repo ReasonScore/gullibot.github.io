@@ -16,7 +16,7 @@ permalink: covid-vaccine/
     largeNumbers: true,
     lines: false,
     editable: false,
-    startClosed: false,
+    startClosed: true,
     portData: false,
     scoreDescription: false,
     saveToCloud: false,
