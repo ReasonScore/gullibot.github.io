@@ -21,6 +21,7 @@ permalink: covid-vaccine/
     scoreDescription: false,
     saveToCloud: false,
     moreInfo: true,
+    hideMainScore: true,
     dbCollection: "f-covid",
   }
 </script>
