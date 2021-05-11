@@ -1,0 +1,67 @@
+<body">
+    <style>
+        body {
+            background-color: rgb(53, 0, 139);
+        }
+
+        .ggauge {
+            fill: black;
+            stroke: White;
+            height: 500px;
+            overflow: visible;
+            position: absolute;
+        }
+
+
+        .gpointer {
+            transform: rotate(10deg);
+            transform-origin: center;
+            animation: hideshow 5s ease infinite alternate;
+        }
+
+        @keyframes hideshow {
+            0% {
+                transform: rotate(90deg);
+            }
+
+            5% {
+                transform: rotate(90deg);
+            }
+
+            24% {
+                transform: rotate(45deg);
+            }
+            26% {
+                transform: rotate(45deg);
+            }
+
+            49% {
+                transform: rotate(0deg);
+            }
+            51% {
+                transform: rotate(0deg);
+            }
+
+            74% {
+                transform: rotate(-45deg);
+            }
+            76% {
+                transform: rotate(-45deg);
+            }
+
+            98% {
+                transform: rotate(-90deg);
+            }
+            100% {
+                transform: rotate(-90deg);
+            }
+        }
+    </style>
+    <svg class="ggauge" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="m50-2e-3c-18-0-34 10-43 25s-9 35 0 50c9 15 25 25 43 25l0 2e-3h5v-50h-10v40c-12-2-23-9-30-20-7-12-7-28 0-40 7-12 20-20 35-20h5v-10h-5z" />
+    </svg>
+    <svg class="ggauge gpointer" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="m40 45c-11 0-25 5-25 5s14 5 25 5h10c7 0 6-10 0-10z" />
+    </svg>
+    </body>
