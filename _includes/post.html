@@ -3,16 +3,18 @@ layout: page.html
 tags: post
 ---
 <div class="content">
-<div class="fixed-height-container">
-    <amp-img
-        class="contain"
-        layout="responsive"
-        src="{{ img }}"
-        alt="{{ title }}"
-        width="{{ img-width }}"
-        height="{{ img-height }}"
-    ></amp-img>
-</div>
+{% if img %}
+    <div class="fixed-height-container">
+        <amp-img
+            class="contain"
+            layout="responsive"
+            src="{{ img }}"
+            alt="{{ title }}"
+            width="{{ img-width }}"
+            height="{{ img-height }}"
+        ></amp-img>
+    </div>
+{% endif %}
     <span style="font-size: x-small;">
         {% formatDate page.date %}
     </span>
