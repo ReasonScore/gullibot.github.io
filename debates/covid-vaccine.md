@@ -5,7 +5,8 @@ description: "Help me understand if you should take the vaccine even if recommen
 permalink: covid-vaccine/
 ---
 <div class="content">
-  <h2>Help Me Improve This Analysis</h2>
+  <h1>Should you take the COVID-19 Vaccine?</h1>
+  <h2>Help Me Correct This Analysis</h2>
   <rs-score score-tree-id="ScoreTree"></rs-score>
   {% include feedback.html %}
 </div>
