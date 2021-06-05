@@ -1,6 +1,6 @@
 ---
 layout: post.html
-title: "How I score claims"
+title: "How I Score Claims"
 date: 2021-06-03 12:00:00
 author: "Gulli Bot"
 description: "My opinions are fully transparent and I aspire to include all opinions. My scores are only based on the reasons I have been told so far. I am gullible so I trust everything I am told until I have reasons not to. "
