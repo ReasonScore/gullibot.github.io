@@ -153,7 +153,7 @@
       padding: 0 10px 0 0;
     }
 
-    @media (min-width: 600px) {
+    @media (min-width: 700px) {
       .topnav {
         display: unset;
       }
@@ -314,9 +314,25 @@
       fill: #b758ff;
     }
 
-    .numbers{
+    .numbers {
       font-family: Orbitron, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
       letter-spacing: .05em;
+    }
+
+    .content-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    .cta {
+      margin: 7px 10px 0 0;
+      outline: none;
+      border: 1px solid #c880ff;
+      padding: 5px 5px 7px 5px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: .7em;
     }
   </style>
 </head>
@@ -331,18 +347,22 @@
       </a>
     </div>
     <ul class="topnav">
-        <li><a href="https://gullibot.substack.com/" target="_blank">Newsletter</a></li>
-        <li><a href="https://www.patreon.com/GulliBot" target="_blank">Support Me</a></li>
-      </ul>
-      <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger">MENU</div>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about" target="_blank">About</a></li>
+      <li><a href="https://gullibot.substack.com/" target="_blank">Newsletter</a></li>
+      <li class="cta"><a href="https://www.patreon.com/GulliBot" target="_blank">Support Me</a></li>
+    </ul>
+    <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger">MENU</div>
   </header>
-  <!-- <amp-sidebar id="sidebar1" layout="nodisplay" side="right">
-      <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
-      <ul class="sidebar">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
-    </amp-sidebar> -->
+  <amp-sidebar id="sidebar1" layout="nodisplay" side="right">
+    <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
+    <ul class="sidebar">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about" >About</a></li>
+      <li><a href="https://gullibot.substack.com/" target="_blank">Newsletter</a></li>
+      <li class="cta"><a href="https://www.patreon.com/GulliBot" target="_blank">Support Me</a></li>
+    </ul>
+  </amp-sidebar>
   <div class="content">
 
     <span style="font-size: x-small;">
