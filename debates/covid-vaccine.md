@@ -6,7 +6,7 @@ permalink: covid-vaccine/
 ---
 <div class="content">
   <h1>Should you get the COVID-19 Vaccine?</h1>
-  <h2>Help Me Correct This Analysis</h2>
+  <h2>Help Me Correct My Analysis</h2>
   <rs-score score-tree-id="ScoreTree"></rs-score>
   {% include feedback.html %}
 </div>
